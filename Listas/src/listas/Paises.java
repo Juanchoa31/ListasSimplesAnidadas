@@ -1,7 +1,8 @@
 package listas;
 
 public class Paises {
-    private String pais, capital;   
+
+    private String pais, capital;
 
     public String getPais() {
         return pais;
@@ -23,5 +24,5 @@ public class Paises {
         this.pais = pais;
         this.capital = capital;
     }
-    
+
 }

@@ -1,11 +1,11 @@
 package listas;
 
 public class Lista {
-    
+
     private Nodo cabeza;
     private int tamanio;
-    
-    public Lista(){
+
+    public Lista() {
         this.cabeza = null;
         this.tamanio = 0;
     }
@@ -25,18 +25,18 @@ public class Lista {
     public void setTamanio(int tamanio) {
         this.tamanio = tamanio;
     }
-    
-    public boolean Validar(){
+
+    public boolean Validar() {
         cabeza = null;
         return true;
     }
-    
-    public String Add(Paises p){
-        
+
+    public String Insertar(Paises p) {
+
         Nodo nuevo = new Nodo(p);
-        if (Validar()){
+        if (Validar()) {
             cabeza = nuevo;
-        }else{
+        } else {
             nuevo.setEnlace(cabeza);
             cabeza = nuevo;
         }

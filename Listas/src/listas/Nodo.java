@@ -1,12 +1,13 @@
 package listas;
 
 public class Nodo {
+
     private Paises dato;
     private Nodo enlace;
-    
-    public Nodo(Paises dato){
+
+    public Nodo(Paises dato) {
         this.dato = dato;
-        this.enlace = null;        
+        this.enlace = null;
     }
 
     public Paises getDato() {
@@ -24,6 +25,5 @@ public class Nodo {
     public void setEnlace(Nodo enlace) {
         this.enlace = enlace;
     }
-    
-    
+
 }
